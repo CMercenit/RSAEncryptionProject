@@ -76,6 +76,7 @@ public class View
 		myFrame.setLocation(375, 65);
 		myFrame.setLayout(null);
 		myFrame.setResizable(false);
+		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		//Create the ContentPane that holds everything
 		myContentPane = myFrame.getContentPane();
